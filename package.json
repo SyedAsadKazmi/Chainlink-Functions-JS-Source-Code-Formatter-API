@@ -1,0 +1,25 @@
+{
+  "name": "cf-formatter-api",
+  "version": "1.0.0",
+  "description": "Chainlink Functions JS Source Code Formatter API",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.local.js"
+  },
+  "author": "Syed Asad Kazmi",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.25.6",
+    "@babel/parser": "^7.25.6",
+    "@babel/traverse": "^7.25.6",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.36.0"
+  }
+}
